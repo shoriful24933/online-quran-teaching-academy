@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Hind+Siliguri:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hind Siliguri", "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", "Amiri", Georgia, serif;
+  --font-arabic: "Amiri", serif;
+  
+  /* Natural Tones Forest Palette mappings for seamless transition */
+  --color-emerald-950: #1B4332;
+  --color-emerald-900: #2D6A4F;
+  --color-emerald-800: #40916C;
+  --color-emerald-700: #52B788;
+  --color-emerald-600: #74C69D;
+  --color-emerald-500: #95D5B2;
+  --color-emerald-100: #E8EEDF;
+  --color-emerald-50: #FDFBF7;
+  
+  /* Natural Tones custom classes */
+  --color-sage-bg: #FDFBF7;
+  --color-sage-accent: #E8EEDF;
+  --color-sage-text: #2D3A2C;
+  --color-sage-olive: #6B705C;
+  --color-sage-light-olive: #A3B18A;
+  
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B38F2E;
+  --color-gold-400: #F3D060;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-sage-bg);
+  color: var(--color-sage-text);
+}
+
+.arabic-text {
+  font-family: var(--font-arabic);
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-sage-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-sage-light-olive);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sage-olive);
+}

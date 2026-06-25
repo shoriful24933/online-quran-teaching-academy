@@ -1,0 +1,6 @@
+{
+  "name": "Online Quran Teaching Academy",
+  "description": "বিশ্বের যেকোনো প্রান্ত থেকে শুদ্ধ কুরআন, তাজবীদ ও নামাজ শিক্ষা অর্জনের বিশ্বস্ত অনলাইন একাডেমি।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
